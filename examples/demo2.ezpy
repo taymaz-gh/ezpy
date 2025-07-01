@@ -1,0 +1,88 @@
+x = -7
+
+if x > 0 :    
+            print("Positive") 
+   elif  x < 0: print("Negative") 
+else 
+print("Zero")  
+ endif
+
+
+
+
+for i in range(10)       :   print(i)
+print(i+1)
+  print(i-1)
+         next
+
+
+
+
+k = 1
+while k < 5 :   print(k)
+  print(k+1)
+print(k-1)
+
+  loop
+
+
+
+
+if x > 0 :    
+            print("Positive") 
+   elif  x < 0: print("Negative") 
+else 
+print("Zero") 
+
+if x > 0 :    
+            print("Positive") 
+   elif  x < 0: print("Negative") 
+else 
+print("Zero")  
+   endif
+ endif
+
+
+
+
+ for i in range(10)       :   print(i)
+print(i+1)
+  print(i-1)
+    k = 1
+while k < 5 :   print(k)
+  print(k+1)
+print(k-1)
+
+  loop
+         next
+
+
+
+
+
+
+
+# The below code should lead to this error, since the 'for' block is not closed by a 'next' : 
+
+#   [Syntax Error] Line EOF: Unclosed blocks:
+#   for (opened on line 65)
+
+
+for i in range(10)       :   print(i)
+print(i+1)
+  print(i-1)
+    k = 1
+while k < 5 :   print(k)
+  print(k+1)
+print(k-1)
+if x > 0 :    
+            print("Positive") 
+   elif  x < 0: print("Negative") 
+else 
+print("Zero")  
+   endif
+  loop 
+
+
+
+# end of the sample
